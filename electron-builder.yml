@@ -1,5 +1,5 @@
 appId: com.electron.app
-productName: react
+productName: TRAMO
 directories:
   buildResources: build
 files:
@@ -11,7 +11,7 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: react
+  executableName: TRAMO
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
